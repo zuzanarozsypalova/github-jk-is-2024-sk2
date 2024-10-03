@@ -11,3 +11,7 @@ Datum a čas provedení změny: 2024-10-01, 19:23
 
 ## Změna na hodině - test
 Datum a čas provedení změny: 2024-10-03, 13:01
+
+## Změna přímo na GitHubu
+Datum a čas provedení změny: 2024-10-03, 13:14
+Jiří Kvajsar : ) 
