@@ -28,8 +28,33 @@ class Program {
 
             }
 
-            // Logika pro výpis řady - TO-DO
+            Console.Write("Zadejte poslední číslo řady (celé číslo): ");
+            int last;
+            while(!int.TryParse(Console.ReadLine(), out last)) {
+                Console.Write("Nezadali jste celé číslo. Zadejte znovu poslední číslo řady (celé číslo):  ");    
 
+            }
+            Console.Write("Zadejte diference (celé číslo): ");
+            int step;
+            while(!int.TryParse(Console.ReadLine(), out step)) {
+                Console.Write("Nezadali jste celé číslo. Zadejte znovu první číslo řady (celé číslo):  ");    
+
+            }
+            // Výpis uživatelského vstupu
+            Console.WriteLine();
+            Console.WriteLine("==============================");
+            Console.WriteLine("První číslo řady: {0}", first);
+            Console.WriteLine("Poslední číslo řady: {0}", last);
+            Console.WriteLine("Diference: {0}", step);
+            Console.WriteLine();
+            Console.WriteLine();
+
+            // Logika pro výpis řady - TO-DO
+            int current = first;
+            while(current <= last) {
+                Console.WriteLine(current);
+                current = current + step;
+            }
 
             // Opakování programu
             Console.WriteLine("Pro opakování programu stiskněte klávesu a");
