@@ -32,8 +32,8 @@ string again = "a";
             // Procházení každé cifry čísla
             foreach(char digit in numberString){
                 int numericValue = digit - '0';
-                soucet += numericValue;
-                soucin *= numericValue;
+                soucet = soucet + numericValue;
+                soucin = soucin * numericValue;
             }
 
             // Výstup součtu a součinu
