@@ -1,0 +1,15 @@
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program002a_soucet_cifer\obj\Debug\net8.0\program002a_soucet_cifer.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program002a_soucet_cifer\obj\Debug\net8.0\program002a_soucet_cifer.AssemblyInfoInputs.cache
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program002a_soucet_cifer\obj\Debug\net8.0\program002a_soucet_cifer.AssemblyInfo.cs
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program002a_soucet_cifer\obj\Debug\net8.0\program002a_soucet_cifer.csproj.CoreCompileInputs.cache
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program002a_soucet_cifer\obj\Debug\net8.0\program002a_soucet_cifer.sourcelink.json
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program002a_soucet_cifer\bin\Debug\net8.0\program002a_soucet_cifer.exe
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program002a_soucet_cifer\bin\Debug\net8.0\program002a_soucet_cifer.deps.json
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program002a_soucet_cifer\bin\Debug\net8.0\program002a_soucet_cifer.runtimeconfig.json
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program002a_soucet_cifer\bin\Debug\net8.0\program002a_soucet_cifer.dll
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program002a_soucet_cifer\bin\Debug\net8.0\program002a_soucet_cifer.pdb
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program002a_soucet_cifer\obj\Debug\net8.0\program002a_soucet_cifer.dll
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program002a_soucet_cifer\obj\Debug\net8.0\refint\program002a_soucet_cifer.dll
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program002a_soucet_cifer\obj\Debug\net8.0\program002a_soucet_cifer.pdb
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program002a_soucet_cifer\obj\Debug\net8.0\program002a_soucet_cifer.genruntimeconfig.cache
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program002a_soucet_cifer\obj\Debug\net8.0\ref\program002a_soucet_cifer.dll

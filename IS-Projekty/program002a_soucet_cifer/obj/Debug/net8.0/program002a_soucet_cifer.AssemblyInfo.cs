@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("program001-vypis-rady")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("program002a_soucet_cifer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1618bb7f68be3ffe92123d703e83cd7b28316a5")]
-[assembly: System.Reflection.AssemblyProductAttribute("program001-vypis-rady")]
-[assembly: System.Reflection.AssemblyTitleAttribute("program001-vypis-rady")]
+[assembly: System.Reflection.AssemblyProductAttribute("program002a_soucet_cifer")]
+[assembly: System.Reflection.AssemblyTitleAttribute("program002a_soucet_cifer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Vygenerované třídou WriteCodeFragment nástroje MSBuild
