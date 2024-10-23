@@ -1,0 +1,15 @@
+c:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\bin\Debug\net8.0\program003b-pravouhly-trojuhelnik.exe
+c:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\bin\Debug\net8.0\program003b-pravouhly-trojuhelnik.deps.json
+c:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\bin\Debug\net8.0\program003b-pravouhly-trojuhelnik.runtimeconfig.json
+c:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\bin\Debug\net8.0\program003b-pravouhly-trojuhelnik.dll
+c:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\bin\Debug\net8.0\program003b-pravouhly-trojuhelnik.pdb
+c:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\obj\Debug\net8.0\program003b-pravouhly-trojuhelnik.GeneratedMSBuildEditorConfig.editorconfig
+c:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\obj\Debug\net8.0\program003b-pravouhly-trojuhelnik.AssemblyInfoInputs.cache
+c:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\obj\Debug\net8.0\program003b-pravouhly-trojuhelnik.AssemblyInfo.cs
+c:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\obj\Debug\net8.0\program003b-pravouhly-trojuhelnik.csproj.CoreCompileInputs.cache
+c:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\obj\Debug\net8.0\program003b-pravouhly-trojuhelnik.sourcelink.json
+c:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\obj\Debug\net8.0\program003b-pravouhly-trojuhelnik.dll
+c:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\obj\Debug\net8.0\refint\program003b-pravouhly-trojuhelnik.dll
+c:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\obj\Debug\net8.0\program003b-pravouhly-trojuhelnik.pdb
+c:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\obj\Debug\net8.0\program003b-pravouhly-trojuhelnik.genruntimeconfig.cache
+c:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003b-pravouhly-trojuhelnik\obj\Debug\net8.0\ref\program003b-pravouhly-trojuhelnik.dll
