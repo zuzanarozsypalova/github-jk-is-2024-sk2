@@ -11,7 +11,7 @@
             Console.Write("Zadejte počet generovaných čísel (celé číslo): ");
             int n;
             while(!int.TryParse(Console.ReadLine(), out n)) {
-                Console.Write("Nezadali jste celé číslo. Zadejte znovu první číslo řady (celé číslo):  ");    
+                Console.Write("Nezadali jste celé číslo. Zadejte znovu počet čísel (celé číslo):  ");    
             }
             Console.Write("Zadejte dolní mez (celé číslo): ");
             int dm;
@@ -28,8 +28,21 @@
             Console.WriteLine("Uživatelský vstup: ");
             Console.WriteLine("Počet čísel: {0}; dolní mez: {1}; horní mez: {2}", n, dm, hm);
             Console.WriteLine("\n\n===================\n\n");
+
+            //deklarace pole
+            int[] myArray = new int[n];
+
+            // příprava pro generování náhodných čísel
+            Random randomNumber = new Random();
+
+            Console.WriteLine("Náhodná čísla: ");
+            for(int i=0; i<n; i++){
+                myArray[i] = randomNumber.Next(dm, hm+1);
+                Console.Write("{0},", myArray[i]);
+            }
+
             // Opakování programu
-            Console.WriteLine("Pro opakování programu stiskněte klávesu a");
+            Console.WriteLine("\n\nPro opakování programu stiskněte klávesu a");
             again = Console.ReadLine();
 
 
