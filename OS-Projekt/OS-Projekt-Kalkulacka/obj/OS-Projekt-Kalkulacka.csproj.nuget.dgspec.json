@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\VS CODE - SKOLA\\github-jk-is-2024-sk2\\OS-Projekt\\OS-Projekt-Kalkulacka\\OS-Projekt-Kalkulacka.csproj": {}
+    "C:\\VS CODE - SKOLA\\github-jk-is-2024-sk2\\OS-Projekt\\OS-Projekt-Kalkulacka\\OS-Projekt-Kalkulacka.csproj": {}
   },
   "projects": {
-    "c:\\VS CODE - SKOLA\\github-jk-is-2024-sk2\\OS-Projekt\\OS-Projekt-Kalkulacka\\OS-Projekt-Kalkulacka.csproj": {
+    "C:\\VS CODE - SKOLA\\github-jk-is-2024-sk2\\OS-Projekt\\OS-Projekt-Kalkulacka\\OS-Projekt-Kalkulacka.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\VS CODE - SKOLA\\github-jk-is-2024-sk2\\OS-Projekt\\OS-Projekt-Kalkulacka\\OS-Projekt-Kalkulacka.csproj",
+        "projectUniqueName": "C:\\VS CODE - SKOLA\\github-jk-is-2024-sk2\\OS-Projekt\\OS-Projekt-Kalkulacka\\OS-Projekt-Kalkulacka.csproj",
         "projectName": "OS-Projekt-Kalkulacka",
-        "projectPath": "c:\\VS CODE - SKOLA\\github-jk-is-2024-sk2\\OS-Projekt\\OS-Projekt-Kalkulacka\\OS-Projekt-Kalkulacka.csproj",
+        "projectPath": "C:\\VS CODE - SKOLA\\github-jk-is-2024-sk2\\OS-Projekt\\OS-Projekt-Kalkulacka\\OS-Projekt-Kalkulacka.csproj",
         "packagesPath": "C:\\Users\\jirik\\.nuget\\packages\\",
-        "outputPath": "c:\\VS CODE - SKOLA\\github-jk-is-2024-sk2\\OS-Projekt\\OS-Projekt-Kalkulacka\\obj\\",
+        "outputPath": "C:\\VS CODE - SKOLA\\github-jk-is-2024-sk2\\OS-Projekt\\OS-Projekt-Kalkulacka\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jirik\\AppData\\Roaming\\NuGet\\NuGet.Config"
