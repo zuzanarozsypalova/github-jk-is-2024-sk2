@@ -1,31 +1,55 @@
-﻿        
-        // chci, aby se program opakoval po stisku klávesy y 
+﻿        // chci, aby se program opakoval po stisku klávesy y 
         string again = "y";
         while(again == "y" || again == "Y") {
-            string firstLine =  ("");
-            string secondLine = ("+++++++ Kalkulacka metrik obrazců ++++");
-            string thirdLine =  ("");
-            string fourthLine = ("++++++++++++++ Jiří Kvajsar ++++++++++");
-            string fifthLine =  ("");
             
-             int maxLength = firstLine.Length;
-             maxLength = Math.Max(maxLength, secondLine.Length);
-            maxLength = Math.Max(maxLength, thirdLine.Length);
-            maxLength = Math.Max(maxLength, fourthLine.Length);
-            maxLength = Math.Max(maxLength, fifthLine.Length);    
+            string firstLine = ("++");
+            string secondLine = ("+ Kalkulacka metrik obrazců +");
+            string thirdLine = ("+");
+            string fourthLine = ("+ Jiří Kvajsar +++");
+            string fifthLine = ("+");
+                        
+            int secondLineCharacterCount = 0;
+            for(int i = 0; i < secondLine.Length; i++){
+                secondLineCharacterCount++;
+            }
 
-            firstLine = firstLine.PadRight(maxLength, '+');
-            secondLine = secondLine.PadRight(maxLength, '+');
-            thirdLine = thirdLine.PadRight(maxLength, '+');
-            fourthLine = fourthLine.PadRight(maxLength, '+');
-            fifthLine = fifthLine.PadRight(maxLength, '+');
+           // Počítání mezer na obou stranách
+            int totalLenght = secondLineCharacterCount + 20; 
+            int spacesToFillTitle = totalLenght - secondLine.Length;
+            int spacesToFillName = totalLenght - fourthLine.Length;
 
-            Console.WriteLine(firstLine);
-            Console.WriteLine(secondLine);
-            Console.WriteLine(thirdLine);
-            Console.WriteLine(fourthLine);
-            Console.WriteLine(fifthLine);
-            Console.WriteLine("\n\n");
+            if(spacesToFillTitle > 0 && spacesToFillName > 0){
+
+                int leftPadding = spacesToFillTitle / 2;
+                int rightPadding = spacesToFillTitle - leftPadding;
+
+                // Pouze pro jméno 4. řádek
+                int leftPaddingName = spacesToFillName / 2;
+                int rightPaddingName = spacesToFillName - leftPaddingName;
+
+                string centeredFirstLine = firstLine.PadLeft(firstLine.Length + leftPadding, '+').PadRight(totalLenght, '+');
+                string centeredSecondLine = secondLine.PadLeft(secondLine.Length + leftPadding, '+').PadRight(totalLenght, '+');
+                string centeredThirdLine = thirdLine.PadLeft(thirdLine.Length + leftPadding, '+').PadRight(totalLenght, '+');
+                string centeredFourthLine = fourthLine.PadLeft(fourthLine.Length + leftPaddingName, '+').PadRight(totalLenght, '+');
+                string centeredFifthLine = fifthLine.PadLeft(fifthLine.Length + leftPadding, '+').PadRight(totalLenght, '+');
+    
+                Console.WriteLine(centeredFirstLine);
+                Console.WriteLine(centeredSecondLine);
+                Console.WriteLine(centeredThirdLine);
+                Console.WriteLine(centeredFourthLine);
+                Console.WriteLine(centeredFifthLine);
+                Console.WriteLine();
+            
+            }
+            else{
+                Console.WriteLine(firstLine);
+                Console.WriteLine(secondLine);
+                Console.WriteLine(thirdLine);
+                Console.WriteLine(fourthLine);
+                Console.WriteLine(fifthLine);
+                Console.WriteLine();
+            }
+
             int choice;
 
            // Vstup od uživatele při vybírání obrazce
