@@ -1,16 +1,31 @@
-﻿
-
+﻿        
         // chci, aby se program opakoval po stisku klávesy y 
         string again = "y";
         while(again == "y" || again == "Y") {
-            //Console.Clear();
-            Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++");
-            Console.WriteLine("+++++++ Kalkulacka metrik obrazců +++++++");
-            Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++");
-            Console.WriteLine("++++++++++++++ Jiří Kvajsar +++++++++++++");
-            Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++\n\n");
-            Console.WriteLine();
+            string firstLine =  ("");
+            string secondLine = ("+++++++ Kalkulacka metrik obrazců ++++");
+            string thirdLine =  ("");
+            string fourthLine = ("++++++++++++++ Jiří Kvajsar ++++++++++");
+            string fifthLine =  ("");
+            
+             int maxLength = firstLine.Length;
+             maxLength = Math.Max(maxLength, secondLine.Length);
+            maxLength = Math.Max(maxLength, thirdLine.Length);
+            maxLength = Math.Max(maxLength, fourthLine.Length);
+            maxLength = Math.Max(maxLength, fifthLine.Length);    
 
+            firstLine = firstLine.PadRight(maxLength, '+');
+            secondLine = secondLine.PadRight(maxLength, '+');
+            thirdLine = thirdLine.PadRight(maxLength, '+');
+            fourthLine = fourthLine.PadRight(maxLength, '+');
+            fifthLine = fifthLine.PadRight(maxLength, '+');
+
+            Console.WriteLine(firstLine);
+            Console.WriteLine(secondLine);
+            Console.WriteLine(thirdLine);
+            Console.WriteLine(fourthLine);
+            Console.WriteLine(fifthLine);
+            Console.WriteLine("\n\n");
             int choice;
 
            // Vstup od uživatele při vybírání obrazce

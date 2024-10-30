@@ -13,3 +13,18 @@ c:\VS CODE - SKOLA\github-jk-is-2024-sk2\OS-Projekt\OS-Projekt-Kalkulacka\obj\De
 c:\VS CODE - SKOLA\github-jk-is-2024-sk2\OS-Projekt\OS-Projekt-Kalkulacka\obj\Debug\net8.0\OS-Projekt-Kalkulacka.pdb
 c:\VS CODE - SKOLA\github-jk-is-2024-sk2\OS-Projekt\OS-Projekt-Kalkulacka\obj\Debug\net8.0\OS-Projekt-Kalkulacka.genruntimeconfig.cache
 c:\VS CODE - SKOLA\github-jk-is-2024-sk2\OS-Projekt\OS-Projekt-Kalkulacka\obj\Debug\net8.0\ref\OS-Projekt-Kalkulacka.dll
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\OS-Projekt\OS-Projekt-Kalkulacka\obj\Debug\net8.0\OS-Projekt-Kalkulacka.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\OS-Projekt\OS-Projekt-Kalkulacka\obj\Debug\net8.0\OS-Projekt-Kalkulacka.AssemblyInfoInputs.cache
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\OS-Projekt\OS-Projekt-Kalkulacka\obj\Debug\net8.0\OS-Projekt-Kalkulacka.AssemblyInfo.cs
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\OS-Projekt\OS-Projekt-Kalkulacka\obj\Debug\net8.0\OS-Projekt-Kalkulacka.csproj.CoreCompileInputs.cache
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\OS-Projekt\OS-Projekt-Kalkulacka\obj\Debug\net8.0\OS-Projekt-Kalkulacka.sourcelink.json
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\OS-Projekt\OS-Projekt-Kalkulacka\obj\Debug\net8.0\OS-Projekt-Kalkulacka.dll
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\OS-Projekt\OS-Projekt-Kalkulacka\obj\Debug\net8.0\refint\OS-Projekt-Kalkulacka.dll
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\OS-Projekt\OS-Projekt-Kalkulacka\obj\Debug\net8.0\OS-Projekt-Kalkulacka.pdb
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\OS-Projekt\OS-Projekt-Kalkulacka\bin\Debug\net8.0\OS-Projekt-Kalkulacka.exe
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\OS-Projekt\OS-Projekt-Kalkulacka\bin\Debug\net8.0\OS-Projekt-Kalkulacka.deps.json
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\OS-Projekt\OS-Projekt-Kalkulacka\bin\Debug\net8.0\OS-Projekt-Kalkulacka.runtimeconfig.json
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\OS-Projekt\OS-Projekt-Kalkulacka\bin\Debug\net8.0\OS-Projekt-Kalkulacka.dll
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\OS-Projekt\OS-Projekt-Kalkulacka\bin\Debug\net8.0\OS-Projekt-Kalkulacka.pdb
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\OS-Projekt\OS-Projekt-Kalkulacka\obj\Debug\net8.0\OS-Projekt-Kalkulacka.genruntimeconfig.cache
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\OS-Projekt\OS-Projekt-Kalkulacka\obj\Debug\net8.0\ref\OS-Projekt-Kalkulacka.dll

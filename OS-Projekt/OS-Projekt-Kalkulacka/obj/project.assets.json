@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jirik\\.nuget\\packages\\": {}
+    "C:\\Users\\Jiřik\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\VS CODE - SKOLA\\github-jk-is-2024-sk2\\OS-Projekt\\OS-Projekt-Kalkulacka\\OS-Projekt-Kalkulacka.csproj",
+      "projectUniqueName": "C:\\GitHub - VSCODE\\github-jk-is-2024-sk2\\OS-Projekt\\OS-Projekt-Kalkulacka\\OS-Projekt-Kalkulacka.csproj",
       "projectName": "OS-Projekt-Kalkulacka",
-      "projectPath": "C:\\VS CODE - SKOLA\\github-jk-is-2024-sk2\\OS-Projekt\\OS-Projekt-Kalkulacka\\OS-Projekt-Kalkulacka.csproj",
-      "packagesPath": "C:\\Users\\jirik\\.nuget\\packages\\",
-      "outputPath": "C:\\VS CODE - SKOLA\\github-jk-is-2024-sk2\\OS-Projekt\\OS-Projekt-Kalkulacka\\obj\\",
+      "projectPath": "C:\\GitHub - VSCODE\\github-jk-is-2024-sk2\\OS-Projekt\\OS-Projekt-Kalkulacka\\OS-Projekt-Kalkulacka.csproj",
+      "packagesPath": "C:\\Users\\Jiřik\\.nuget\\packages\\",
+      "outputPath": "C:\\GitHub - VSCODE\\github-jk-is-2024-sk2\\OS-Projekt\\OS-Projekt-Kalkulacka\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jirik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Jiřik\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
