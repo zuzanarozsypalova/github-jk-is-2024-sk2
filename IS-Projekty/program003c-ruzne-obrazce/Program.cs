@@ -31,8 +31,9 @@ while(again == "y" || again == "Y") {
         }
         Console.WriteLine(); // Přechod na nový řádek
     }
-
-    // Generování Z
+    Console.WriteLine("\n\n");
+   
+   // Generování Z
     Console.Write("Zadejte výšku obrazce (celé číslo): ");
     int height2;
     while(!int.TryParse(Console.ReadLine(), out height2)) {
@@ -55,6 +56,8 @@ while(again == "y" || again == "Y") {
         }
         Console.WriteLine();
     }
+    Console.WriteLine("\n\n");
+    
     // Šachovnice
     Console.Write("Zadejte výšku obrazce (celé číslo): ");
     int height3;
