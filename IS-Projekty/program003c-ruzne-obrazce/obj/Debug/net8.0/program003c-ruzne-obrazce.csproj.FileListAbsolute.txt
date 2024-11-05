@@ -1,0 +1,15 @@
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003c-ruzne-obrazce\bin\Debug\net8.0\program003c-ruzne-obrazce.exe
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003c-ruzne-obrazce\bin\Debug\net8.0\program003c-ruzne-obrazce.deps.json
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003c-ruzne-obrazce\bin\Debug\net8.0\program003c-ruzne-obrazce.runtimeconfig.json
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003c-ruzne-obrazce\bin\Debug\net8.0\program003c-ruzne-obrazce.dll
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003c-ruzne-obrazce\bin\Debug\net8.0\program003c-ruzne-obrazce.pdb
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003c-ruzne-obrazce\obj\Debug\net8.0\program003c-ruzne-obrazce.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003c-ruzne-obrazce\obj\Debug\net8.0\program003c-ruzne-obrazce.AssemblyInfoInputs.cache
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003c-ruzne-obrazce\obj\Debug\net8.0\program003c-ruzne-obrazce.AssemblyInfo.cs
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003c-ruzne-obrazce\obj\Debug\net8.0\program003c-ruzne-obrazce.csproj.CoreCompileInputs.cache
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003c-ruzne-obrazce\obj\Debug\net8.0\program003c-ruzne-obrazce.sourcelink.json
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003c-ruzne-obrazce\obj\Debug\net8.0\program003c-ruzne-obrazce.dll
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003c-ruzne-obrazce\obj\Debug\net8.0\refint\program003c-ruzne-obrazce.dll
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003c-ruzne-obrazce\obj\Debug\net8.0\program003c-ruzne-obrazce.pdb
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003c-ruzne-obrazce\obj\Debug\net8.0\program003c-ruzne-obrazce.genruntimeconfig.cache
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program003c-ruzne-obrazce\obj\Debug\net8.0\ref\program003c-ruzne-obrazce.dll
