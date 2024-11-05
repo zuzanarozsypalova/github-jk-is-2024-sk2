@@ -1,37 +1,36 @@
 ﻿string again = "y";
 while(again == "y" || again == "Y") {
-    //Console.Clear();
     Console.WriteLine("************************************************");
     Console.WriteLine("********** Generování různých obrazců **********");
     Console.WriteLine("****************** Jiří Kvajsar ****************");
     Console.WriteLine("************************************************");
     Console.WriteLine();
 
-    // Console.Write("Zadejte výšku obrazce (celé číslo): ");
-    // int height;
-    // while(!int.TryParse(Console.ReadLine(), out height)) {
-    //     Console.Write("Nezadali jste celé číslo. Zadejte znovu výšku obrazce (celé číslo): ");
-    // }
+    Console.Write("Zadejte výšku obrazce (celé číslo): ");
+    int height;
+    while(!int.TryParse(Console.ReadLine(), out height)) {
+        Console.Write("Nezadali jste celé číslo. Zadejte znovu výšku obrazce (celé číslo): ");
+    }
 
     // Přesýpací hodiny
-    // for(int n = height; n >= 1; n--) {
-    //     for(int c = 1; c <= height - n; c++) {
-    //         Console.Write(" ");
-    //     }
-    //     for(int d = 1; d <= 2 * n; d++) {
-    //         Console.Write("*");
-    //     }
-    //     Console.WriteLine();
-    // }
-    // for(int i = 1; i <= height; i++) { // Počet řádků, který se vygeneruje
-    //     for(int j = 1; j <= height - i; j++) {
-    //         Console.Write(" ");
-    //     }
-    //     for(int t = 1; t <= 2 * i; t++) {
-    //         Console.Write("*");
-    //     }
-    //     Console.WriteLine(); // Přechod na nový řádek
-    // }
+    for(int n = height; n >= 1; n--) {
+        for(int c = 1; c <= height - n; c++) {
+            Console.Write(" ");
+        }
+        for(int d = 1; d <= 2 * n; d++) {
+            Console.Write("*");
+        }
+        Console.WriteLine();
+    }
+    for(int i = 1; i <= height; i++) { // Počet řádků, který se vygeneruje
+        for(int j = 1; j <= height - i; j++) {
+            Console.Write(" ");
+        }
+        for(int t = 1; t <= 2 * i; t++) {
+            Console.Write("*");
+        }
+        Console.WriteLine(); // Přechod na nový řádek
+    }
 
     // Generování Z
     Console.Write("Zadejte výšku obrazce (celé číslo): ");
@@ -52,6 +51,23 @@ while(again == "y" || again == "Y") {
                 } else {
                     Console.Write(" ");
                 }
+            }
+        }
+        Console.WriteLine();
+    }
+    // Šachovnice
+    Console.Write("Zadejte výšku obrazce (celé číslo): ");
+    int height3;
+    while(!int.TryParse(Console.ReadLine(), out height3)) {
+        Console.Write("Nezadali jste celé číslo. Zadejte znovu výšku obrazce (celé číslo): ");
+    }
+    for(int w = 0; w < height3; w++){
+        for(int y = 0; y < height3; y++){
+            if((w + y) % 2 == 0){
+                Console.Write("* ");
+            }
+            else{
+                Console.Write(" ");
             }
         }
         Console.WriteLine();
