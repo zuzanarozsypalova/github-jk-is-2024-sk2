@@ -98,7 +98,7 @@
             }
             else if (choice == 3){
                 Console.WriteLine("Vybrali jste si trojúhelník!");
-                int a, b, c;
+                int a, b, c, v;
                 Console.WriteLine("Zadejte délku strany a (celé číslo): ");
                 while (!int.TryParse(Console.ReadLine(), out a)){
                     Console.WriteLine("Zadaná hodnota není platné celé číslo. Zadejte prosím celé číslo.");   
@@ -111,7 +111,13 @@
                 while(!int.TryParse(Console.ReadLine(), out c)){
                    Console.WriteLine("Zadaná hodnota není platné celé číslo. Zadejte prosím celé číslo."); 
                 }
+                Console.WriteLine("Zadejte délku výšky trojúhelníku (celé číslo): ");
+                while(!int.TryParse(Console.ReadLine(), out v)){
+                    Console.WriteLine("Zadaná hodnota není platné celé číslo. Zadejte prosím celé číslo.");
+                }
+
                 Console.WriteLine($"\nObvod obdelníku = {a + b +c}");
+                Console.WriteLine($"Obsah trojúhelníku = {(a * v)/2}");
 
             }
             else{
