@@ -98,8 +98,15 @@
             }
             else if (choice == 3){
                 Console.WriteLine("Vybrali jste si trojúhelník!");
-                int a, b, c, v;
-                Console.WriteLine("Zadejte délku strany a (celé číslo): ");
+                int a, b, c, v, choice2;
+                Console.WriteLine("Vyberte si z následující nabídky zda chcete počítat obsah/obvod: \n");
+                 Console.WriteLine("Pro obvod - 1");
+                 Console.WriteLine("Pro obsah - 2");
+                while(!int.TryParse(Console.ReadLine(), out choice2)){
+                Console.Write("Nezadali jste celé číslo 1/2. Zadejte prosím číslo 1/2: ");
+            }
+                if(choice2 == 1){
+                    Console.WriteLine("Zadejte délku strany a (celé číslo): ");
                 while (!int.TryParse(Console.ReadLine(), out a)){
                     Console.WriteLine("Zadaná hodnota není platné celé číslo. Zadejte prosím celé číslo.");   
                 }
@@ -111,13 +118,19 @@
                 while(!int.TryParse(Console.ReadLine(), out c)){
                    Console.WriteLine("Zadaná hodnota není platné celé číslo. Zadejte prosím celé číslo."); 
                 }
+                Console.WriteLine($"\nObvod obdelníku = {a + b +c}");
+                }            
+                else if (choice2 == 2){
+                Console.WriteLine("Zadejte délku strany a (celé číslo): ");
+                while (!int.TryParse(Console.ReadLine(), out a)){
+                    Console.WriteLine("Zadaná hodnota není platné celé číslo. Zadejte prosím celé číslo.");   
+                }
                 Console.WriteLine("Zadejte délku výšky trojúhelníku (celé číslo): ");
                 while(!int.TryParse(Console.ReadLine(), out v)){
                     Console.WriteLine("Zadaná hodnota není platné celé číslo. Zadejte prosím celé číslo.");
                 }
-
-                Console.WriteLine($"\nObvod obdelníku = {a + b +c}");
                 Console.WriteLine($"Obsah trojúhelníku = {(a * v)/2}");
+                }
 
             }
             else{
