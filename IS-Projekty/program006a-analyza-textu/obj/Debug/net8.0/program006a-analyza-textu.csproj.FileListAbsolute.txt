@@ -1,0 +1,15 @@
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program006a-analyza-textu\bin\Debug\net8.0\program006a-analyza-textu.exe
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program006a-analyza-textu\bin\Debug\net8.0\program006a-analyza-textu.deps.json
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program006a-analyza-textu\bin\Debug\net8.0\program006a-analyza-textu.runtimeconfig.json
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program006a-analyza-textu\bin\Debug\net8.0\program006a-analyza-textu.dll
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program006a-analyza-textu\bin\Debug\net8.0\program006a-analyza-textu.pdb
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program006a-analyza-textu\obj\Debug\net8.0\program006a-analyza-textu.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program006a-analyza-textu\obj\Debug\net8.0\program006a-analyza-textu.AssemblyInfoInputs.cache
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program006a-analyza-textu\obj\Debug\net8.0\program006a-analyza-textu.AssemblyInfo.cs
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program006a-analyza-textu\obj\Debug\net8.0\program006a-analyza-textu.csproj.CoreCompileInputs.cache
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program006a-analyza-textu\obj\Debug\net8.0\program006a-analyza-textu.sourcelink.json
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program006a-analyza-textu\obj\Debug\net8.0\program006a-analyza-textu.dll
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program006a-analyza-textu\obj\Debug\net8.0\refint\program006a-analyza-textu.dll
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program006a-analyza-textu\obj\Debug\net8.0\program006a-analyza-textu.pdb
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program006a-analyza-textu\obj\Debug\net8.0\program006a-analyza-textu.genruntimeconfig.cache
+C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program006a-analyza-textu\obj\Debug\net8.0\ref\program006a-analyza-textu.dll
