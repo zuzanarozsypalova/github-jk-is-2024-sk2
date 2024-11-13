@@ -24,14 +24,15 @@
                 Console.Write("Nezadali jste celé číslo. Zadejte znovu horní mez (celé číslo):  ");    
             }
 
-            Console.WriteLine("\n\n===================");
+            Console.WriteLine("\n\n========================================================");
             Console.WriteLine("Uživatelský vstup: ");
             Console.WriteLine("Počet čísel: {0}; dolní mez: {1}; horní mez: {2}", n, dm, hm);
-            Console.WriteLine("\n\n===================");
+            Console.WriteLine("\n\n========================================================");
 
             //deklarace pole
             int[] myArray = new int[n];
-
+            int[] positionsMax = new int[n];
+            int[] positionsMin = new int[n];
             // příprava pro generování náhodných čísel
             Random randomNumber = new Random();
 
@@ -47,22 +48,29 @@
             int posMin = 0;
             int countMax = 1;
             int countMin = 1;
+            positionsMax[0] = 0;
+            positionsMin[0] = 0;
+            
 
             for(int i = 1; i < n; i++){
                 if(myArray[i] > max){
                     max = myArray[i];
                     posMax = i;
                     countMax = 1;
+                    positionsMax[0] = i;
                 }
                 else if(myArray[i] == max){
+                    positionsMax[countMax] = i;
                     countMax++;
                 }
                 if(myArray[i] < min){
                     min = myArray[i];
                     posMin = i;
                     countMin = 1;
+                    positionsMin[0] = i;
                 }
                 else if(myArray[i] == min){
+                    positionsMin[countMin] = i;
                     countMin++;
                 }
             }
@@ -70,8 +78,14 @@
             Console.WriteLine("\n\nMaximum = {0}", max);
             Console.WriteLine("Minimum = {0}", min);
             Console.WriteLine("Pozice maxima = {0}", posMax);
-            Console.WriteLine("Pozice minima = {0}", posMin);
-            Console.WriteLine("Počet výskytu maxim = {0}", countMax);
+            Console.WriteLine("Pozice minima = {0}\n", posMin);
+            for(int i = 0; i < countMax; i++){
+                Console.WriteLine("Maximum je na pozici {0}", positionsMax[i]);
+            }
+            for(int i = 0; i < countMin; i++){
+                Console.WriteLine("\nMinimum je na pozici {0}", positionsMin[i]);
+            }
+            Console.WriteLine("\nPočet výskytu maxim = {0}", countMax);
             Console.WriteLine("Počet výskytu minim = {0}", countMin);
 
             // Opakování programu

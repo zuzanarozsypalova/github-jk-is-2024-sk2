@@ -11,3 +11,5 @@ build_property.RootNamespace = program_005a_maximum_minimum
 build_property.ProjectDir = C:\GitHub - VSCODE\github-jk-is-2024-sk2\IS-Projekty\program005a-maximum-minimum\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
