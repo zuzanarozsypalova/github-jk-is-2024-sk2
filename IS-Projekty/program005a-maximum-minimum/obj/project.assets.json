@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub - VSCODE\\github-jk-is-2024-sk2\\IS-Projekty\\program-005a-maximum-minimum\\program-005a-maximum-minimum.csproj",
+      "projectUniqueName": "C:\\GitHub - VSCODE\\github-jk-is-2024-sk2\\IS-Projekty\\program005a-maximum-minimum\\program-005a-maximum-minimum.csproj",
       "projectName": "program-005a-maximum-minimum",
-      "projectPath": "C:\\GitHub - VSCODE\\github-jk-is-2024-sk2\\IS-Projekty\\program-005a-maximum-minimum\\program-005a-maximum-minimum.csproj",
+      "projectPath": "C:\\GitHub - VSCODE\\github-jk-is-2024-sk2\\IS-Projekty\\program005a-maximum-minimum\\program-005a-maximum-minimum.csproj",
       "packagesPath": "C:\\Users\\Jiřik\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub - VSCODE\\github-jk-is-2024-sk2\\IS-Projekty\\program-005a-maximum-minimum\\obj\\",
+      "outputPath": "C:\\GitHub - VSCODE\\github-jk-is-2024-sk2\\IS-Projekty\\program005a-maximum-minimum\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jiřik\\AppData\\Roaming\\NuGet\\NuGet.Config"

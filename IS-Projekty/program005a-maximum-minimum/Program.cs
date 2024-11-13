@@ -45,16 +45,25 @@
             int min = myArray[0];
             int posMax = 0;
             int posMin = 0;
+            int countMax = 1;
+            int countMin = 1;
 
             for(int i = 1; i < n; i++){
                 if(myArray[i] > max){
                     max = myArray[i];
                     posMax = i;
+                    countMax = 1;
                 }
-            
+                else if(myArray[i] == max){
+                    countMax++;
+                }
                 if(myArray[i] < min){
                     min = myArray[i];
                     posMin = i;
+                    countMin = 1;
+                }
+                else if(myArray[i] == min){
+                    countMin++;
                 }
             }
 
@@ -62,6 +71,8 @@
             Console.WriteLine("Minimum = {0}", min);
             Console.WriteLine("Pozice maxima = {0}", posMax);
             Console.WriteLine("Pozice minima = {0}", posMin);
+            Console.WriteLine("Počet výskytu maxim = {0}", countMax);
+            Console.WriteLine("Počet výskytu minim = {0}", countMin);
 
             // Opakování programu
             Console.WriteLine("\n\nChcete program opakovat y/n: ");
