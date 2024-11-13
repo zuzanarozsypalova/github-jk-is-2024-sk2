@@ -9,7 +9,7 @@
             Console.WriteLine("+++++++++++++++++++++++++++++++\n\n");
             Console.WriteLine();
 
-            // Vstup od uživatele - lepší varianta
+            // Vstup od uživatele
             Console.Write("Zadejte text pro analýzu: ");
             string myText = Console.ReadLine();
             string samohlasky = "aáeéiíoóuůyý";
@@ -21,7 +21,7 @@
             int pocetcislic = 0;
             int pocetostatnichznaku = 0;
 
-            foreach(char znak in myText){
+            foreach(char znak in myText.ToLower()){
                 if(samohlasky.Contains(znak))
                     pocetsamohlasek++;
                 else if (souhlasky.Contains(znak))
