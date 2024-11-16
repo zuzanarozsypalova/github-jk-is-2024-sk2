@@ -37,6 +37,7 @@
             // příprava pro generování náhodných čísel
             Random randomNumber = new Random();
 
+            // Výpis řady náhodných čísel
             Console.WriteLine("Náhodná čísla: ");
             for(int i=0; i<n; i++){
                 myArray[i] = randomNumber.Next(dm, hm+1);
@@ -48,13 +49,14 @@
 
             myStopwatch.Start();
 
-
+            // Deklarace proměnných pro bubblesort
             int numberCompare = 0;
             int numberChange = 0;
 
             for(int i = 0; i < n-1 ;i++) {
                 for(int j = 0; j < n-i-1; j++){
                     numberCompare++;
+                    // Změna čísla - pokud je číslo menší než další číslo nastává prohození
                     if(myArray[j] < myArray[j+1]){
                         int tmp = myArray[j];
                         myArray[j] = myArray[j+1];
