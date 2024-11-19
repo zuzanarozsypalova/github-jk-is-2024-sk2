@@ -97,12 +97,61 @@ string again = "y";
             for(int i = 0; i < n; i++){
                 Console.Write(" {0} ", myArray[i]);
             }
+            // Shaker sort
+            int shakerNumberCompare = 0;
+            int shakerNumberChangeRight = 0;
+            int shakerNumberChangeLeft = 0;
+            
+            int start = 0; // Počáteční index (první číslo)
+            int end = myArray.Length - 1; // Konečný index (poslední číslo)
+            bool swapped = true; // Indikátor, zda došlo k výměně
+
+
+            while(swapped){
+                swapped = false;
+
+                // Směrem doprava
+                for(int i = start; i < end; i++){
+                    shakerNumberCompare++;
+                    if(myArray[i] > myArray[i + 1]){
+                        // Prohození prvků
+                        shakerNumberChangeRight++;
+                        int temp = myArray[i];
+                        myArray[i] = myArray[i + 1];
+                        myArray[i + 1] = temp;
+                        swapped = true; // Záznam, že došlo k výměně
+                    }
+                }
+                end--; // Posunutí horní hranice
+
+                // Směrem doleva
+                for(int i = end; i > start; i--){
+                    shakerNumberCompare++;
+                    if (myArray[i] < myArray[i-1]){
+                        // Prohození prvků
+                        shakerNumberChangeLeft++;
+                        int temp = myArray[i];
+                        myArray[i] = myArray[i-1];
+                        myArray[i-1] = temp;
+                        swapped = true; // Záznam, že došlo k výměně
+                    }
+                }
+                start++; // Posunutí dolní hranice
+            }
+            int shakerNumberChangeSum = shakerNumberChangeRight + shakerNumberChangeLeft;
+            Console.WriteLine("\n\nSeřazené pole: ");
+            for(int i = 0; i < n; i++){
+                Console.Write(" {0} ", myArray[i]);
+            }
 
             Console.WriteLine("\n\nSelection sort\nPočet porování: {0}", selectionnumberCompare);
             Console.WriteLine("Počet výměn: {0}", selectionnumberChange);
 
             Console.WriteLine("\n\nInsertion sort\nPočet porování: {0}", insertionnumberCompare);
             Console.WriteLine("Počet výměn: {0}", insertionnumberChange);
+
+            Console.WriteLine("\n\nShaker sort\nPočet porovnání: {0}", shakerNumberCompare);
+            Console.WriteLine("Počet výměn: {0}", shakerNumberChangeSum);
 
 
             // Opakování programu
