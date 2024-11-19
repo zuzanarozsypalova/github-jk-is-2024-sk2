@@ -1,5 +1,5 @@
-﻿        string again = "a";
-        while(again == "a") {
+﻿        string again = "y";
+        while(again == "y" || again == "Y") {
             //Console.Clear();
             Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++");
             Console.WriteLine("+++++++ Generátor pseudonáhodných čísel +++++++");
@@ -42,7 +42,7 @@
             }
 
             // Opakování programu
-            Console.WriteLine("\n\nPro opakování programu stiskněte klávesu a");
+            Console.WriteLine("\n\nChcete program opakovat y/n?: ");
             again = Console.ReadLine();
 
 
