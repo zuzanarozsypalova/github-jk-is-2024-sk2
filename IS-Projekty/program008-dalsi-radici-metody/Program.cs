@@ -144,6 +144,71 @@ string again = "y";
                 Console.Write(" {0} ", myArray[i]);
             }
 
+            // Comb Sort
+            int combNumberCompare = 0;
+            int combNumberChange = 0;
+
+            double shrinkFactor = 1.3; // Zmenšovací faktor
+            int gap = myArray.Length; // Počáteční mezera
+            bool combswapped = true; // Indikátor, zda došlo k výměně
+
+            while(gap > 1 || combswapped){
+                // Aktualizace mezery
+                gap = (int)(gap / shrinkFactor);
+                if(gap < 1) gap = 1;
+
+                combswapped = false;
+
+                for (int i = 0; i + gap < myArray.Length; i++){
+                    combNumberCompare++;
+                    if (myArray[i] > myArray[i + gap]){
+                        int temp = myArray[i];
+                        myArray[i] = myArray[i+gap];
+                        myArray[i + gap] = temp;
+
+                        combNumberChange++;
+                        combswapped = true;
+
+                    }
+                }
+            }
+            Console.WriteLine("\n\nSeřazené pole: ");
+            for(int i = 0; i < n; i++){
+                Console.Write(" {0} ", myArray[i]);
+            }
+            
+            //Shell sort
+            int shellNumberCompare = 0;
+            int shellNumberChange = 0;
+
+            int shellgap = myArray.Length;
+
+            while(gap > 1){
+                gap = gap / 2;
+
+                for(int i = gap; i < myArray.Length; i++){
+
+                    int current = myArray[i];
+                    int j = i;
+
+                    // Posouvání větších prvků na správné místo v rámci podpole
+                    while(j >= gap && myArray[j - gap] > current){
+                        shellNumberCompare++;
+                        myArray[j] = myArray[j - gap];
+                        j -= gap; // Posun zpět o mezeru
+                        shellNumberChange++;
+                    }
+                    // Vložení aktuálního prvku na správné místo
+                    myArray[j] = current;
+                }
+            }
+            Console.WriteLine("\n\nSeřazené pole: ");
+            for(int i = 0; i < n; i++){
+                Console.Write(" {0} ", myArray[i]);
+            }
+            
+            
+
             Console.WriteLine("\n\nSelection sort\nPočet porování: {0}", selectionnumberCompare);
             Console.WriteLine("Počet výměn: {0}", selectionnumberChange);
 
@@ -153,7 +218,11 @@ string again = "y";
             Console.WriteLine("\n\nShaker sort\nPočet porovnání: {0}", shakerNumberCompare);
             Console.WriteLine("Počet výměn: {0}", shakerNumberChangeSum);
 
-
+            Console.WriteLine("\n\nComb sort\nPočet porovnání: {0}", combNumberCompare);
+            Console.WriteLine("Počet výměn: {0}", combNumberChange);
+            
+            Console.WriteLine("\n\nShell sort\nPočet porovnání: {0}", shellNumberCompare);
+            Console.WriteLine("Počet výměn: {0}", shellNumberChange);
             // Opakování programu
             Console.WriteLine("\n\nChcete program opakovat y/n?: ");
             again = Console.ReadLine();
