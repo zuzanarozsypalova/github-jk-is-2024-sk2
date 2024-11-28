@@ -1,0 +1,15 @@
+C:\aaa\IS-2024\github-jk-is-2024-sk2\IS-Projekty\program014a-prevod2do10soustavy\bin\Debug\net9.0\program014a-prevod2do10soustavy.exe
+C:\aaa\IS-2024\github-jk-is-2024-sk2\IS-Projekty\program014a-prevod2do10soustavy\bin\Debug\net9.0\program014a-prevod2do10soustavy.deps.json
+C:\aaa\IS-2024\github-jk-is-2024-sk2\IS-Projekty\program014a-prevod2do10soustavy\bin\Debug\net9.0\program014a-prevod2do10soustavy.runtimeconfig.json
+C:\aaa\IS-2024\github-jk-is-2024-sk2\IS-Projekty\program014a-prevod2do10soustavy\bin\Debug\net9.0\program014a-prevod2do10soustavy.dll
+C:\aaa\IS-2024\github-jk-is-2024-sk2\IS-Projekty\program014a-prevod2do10soustavy\bin\Debug\net9.0\program014a-prevod2do10soustavy.pdb
+C:\aaa\IS-2024\github-jk-is-2024-sk2\IS-Projekty\program014a-prevod2do10soustavy\obj\Debug\net9.0\program014a-prevod2do10soustavy.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaa\IS-2024\github-jk-is-2024-sk2\IS-Projekty\program014a-prevod2do10soustavy\obj\Debug\net9.0\program014a-prevod2do10soustavy.AssemblyInfoInputs.cache
+C:\aaa\IS-2024\github-jk-is-2024-sk2\IS-Projekty\program014a-prevod2do10soustavy\obj\Debug\net9.0\program014a-prevod2do10soustavy.AssemblyInfo.cs
+C:\aaa\IS-2024\github-jk-is-2024-sk2\IS-Projekty\program014a-prevod2do10soustavy\obj\Debug\net9.0\program014a-prevod2do10soustavy.csproj.CoreCompileInputs.cache
+C:\aaa\IS-2024\github-jk-is-2024-sk2\IS-Projekty\program014a-prevod2do10soustavy\obj\Debug\net9.0\program014a-prevod2do10soustavy.sourcelink.json
+C:\aaa\IS-2024\github-jk-is-2024-sk2\IS-Projekty\program014a-prevod2do10soustavy\obj\Debug\net9.0\program014a-prevod2do10soustavy.dll
+C:\aaa\IS-2024\github-jk-is-2024-sk2\IS-Projekty\program014a-prevod2do10soustavy\obj\Debug\net9.0\refint\program014a-prevod2do10soustavy.dll
+C:\aaa\IS-2024\github-jk-is-2024-sk2\IS-Projekty\program014a-prevod2do10soustavy\obj\Debug\net9.0\program014a-prevod2do10soustavy.pdb
+C:\aaa\IS-2024\github-jk-is-2024-sk2\IS-Projekty\program014a-prevod2do10soustavy\obj\Debug\net9.0\program014a-prevod2do10soustavy.genruntimeconfig.cache
+C:\aaa\IS-2024\github-jk-is-2024-sk2\IS-Projekty\program014a-prevod2do10soustavy\obj\Debug\net9.0\ref\program014a-prevod2do10soustavy.dll
